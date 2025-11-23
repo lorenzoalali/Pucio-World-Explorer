@@ -22,9 +22,9 @@ export const UI_TEXT = {
     soundOn: "Son activé",
     soundOff: "Son désactivé",
     is: "C'est",
-    credits: "Basé sur le personnage Pucio créé par Marta Galewska-Kustra, publié par Nasza Księgarnia.",
+    credits: "Basé sur le personnage Pucio créé par Dr. Marta Galewska-Kustra, publié par Nasza Księgarnia.",
     createdBy: "Jeu créé par Lorenzo Alali",
-    copyrightNotice: "Les droits d'auteur du personnage Pucio appartiennent à Marta Galewska-Kustra. Ce jeu a été créé uniquement pour le plaisir (fan game) sans aucune ambition commerciale.",
+    copyrightNotice: "Les droits d'auteur du personnage Pucio appartiennent à Dr. Marta Galewska-Kustra. Ce jeu a été créé uniquement pour le plaisir (fan game) sans aucune ambition commerciale.",
     close: "Fermer"
   },
   en: {
@@ -46,9 +46,9 @@ export const UI_TEXT = {
     soundOn: "Sound On",
     soundOff: "Sound Off",
     is: "It's",
-    credits: "Based on the character Pucio created by Marta Galewska-Kustra, published by Nasza Księgarnia.",
+    credits: "Based on the character Pucio created by Dr. Marta Galewska-Kustra, published by Nasza Księgarnia.",
     createdBy: "Game created by Lorenzo Alali",
-    copyrightNotice: "The copyright of the character Pucio is owned by Marta Galewska-Kustra. This game was created for fun only (fan game) with no commercial ambition.",
+    copyrightNotice: "The copyright of the character Pucio is owned by Dr. Marta Galewska-Kustra. This game was created for fun only (fan game) with no commercial ambition.",
     close: "Close"
   },
   pl: {
@@ -225,7 +225,7 @@ const ACTOR_BASE: Omit<ActorData, 'name' | 'sound' | 'gender'>[] = [
 ];
 
 // Translations for actors
-const ACTOR_TRANSLATIONS: Record<string, Record<Language, { name: string, sound: string, gender?: 'M'|'F' }>> = {
+const ACTOR_TRANSLATIONS: Record<string, Record<Language, { name: string, sound: string, gender?: 'M' | 'F' }>> = {
   sun: {
     fr: { name: 'Soleil', sound: 'BRILLE !', gender: 'M' },
     en: { name: 'Sun', sound: 'SHINE !' },

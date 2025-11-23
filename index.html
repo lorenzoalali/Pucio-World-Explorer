@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pucio : Jeux Sonores</title>
+    <title>Pucio World Explorer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -73,22 +73,25 @@
         body {
             /* Paper texture pattern */
             background-color: #E6EBC5;
-            background-image: 
+            background-image:
                 radial-gradient(#C8D1A0 15%, transparent 15%),
                 radial-gradient(#C8D1A0 15%, transparent 15%);
             background-size: 30px 30px;
             background-position: 0 0, 15px 15px;
             overflow: hidden;
-            touch-action: none; /* Prevent scrolling on mobile to allow touch movement */
+            touch-action: none;
+            /* Prevent scrolling on mobile to allow touch movement */
         }
+
         .text-sticker {
-            filter: drop-shadow(0px 3px 0px rgba(0,0,0,0.1)) drop-shadow(2px 2px 0px white) drop-shadow(-2px -2px 0px white) drop-shadow(2px -2px 0px white) drop-shadow(-2px 2px 0px white);
+            filter: drop-shadow(0px 3px 0px rgba(0, 0, 0, 0.1)) drop-shadow(2px 2px 0px white) drop-shadow(-2px -2px 0px white) drop-shadow(2px -2px 0px white) drop-shadow(-2px 2px 0px white);
         }
+
         .shadow-ground {
-            background: radial-gradient(ellipse at center, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 70%);
+            background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 70%);
         }
     </style>
-<script type="importmap">
+    <script type="importmap">
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.2.0",
@@ -99,8 +102,10 @@
 }
 </script>
 </head>
+
 <body>
     <div id="root"></div>
     <script type="module" src="./index.tsx"></script>
 </body>
+
 </html>

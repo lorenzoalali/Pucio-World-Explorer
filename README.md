@@ -48,32 +48,29 @@ To run this project locally on your machine, follow these steps.
 
 ### Prerequisites
 
-*   **Node.js** (v16 or higher recommended)
-*   **npm** (usually comes with Node.js)
+*   **Git**
+*   **Node.js** (v16 or higher recommended) - includes **npm**
 
 ### Installation
 
-1.  **Clone the repository**
+1.  **Setup and Run**
     ```bash
+    # Clone the repository
     git clone https://github.com/lorenzoalali/Pucio-World-Explorer.git
     cd Pucio-World-Explorer
-    ```
 
-2.  **Install dependencies**
-    ```bash
+    # Install dependencies
     npm install
-    ```
 
-3.  **Run the development server**
-    ```bash
+    # Run the development server
     npm run dev
     ```
 
-5.  **Open your browser**
+2.  **Open your browser**
     Navigate to localhost link port shown in your terminal.
 
 ## 📄 Credits
 
 *   **Intellectual Property:** Based on the "Pucio" book series by Dr. Marta Galewska-Kustra. This game was created for entertainment purposes only (a fan game) with no commercial ambitions.
 *   **Book Publisher:** [Nasza Księgarnia - Pucio](https://nk.com.pl/oferta-specjalna/pucio.html)
-*   **Game Creator:** Created by Lorenzo Alali
+*   **Game Creator:** Created by Lorenzo Alali, testing [Google AI Studio](https://github.com/google-gemini/aistudio-repository-template) and its GitHub connection.
