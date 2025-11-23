@@ -4,7 +4,7 @@ import { ActorData, Language } from './types';
 // UI Translations
 export const UI_TEXT = {
   fr: {
-    title: "Pucio : Jeux Sonores",
+    title: "Pucio World Explorer",
     welcome: "Bienvenue !",
     find: "Cherchons :",
     findQuestion: "Où est",
@@ -28,7 +28,7 @@ export const UI_TEXT = {
     close: "Fermer"
   },
   en: {
-    title: "Pucio: Sound Games",
+    title: "Pucio World Explorer",
     welcome: "Welcome!",
     find: "Let's find:",
     findQuestion: "Where is",
@@ -52,7 +52,7 @@ export const UI_TEXT = {
     close: "Close"
   },
   pl: {
-    title: "Pucio: Zabawy Dźwiękowe",
+    title: "Pucio World Explorer",
     welcome: "Witaj!",
     find: "Szukamy:",
     findQuestion: "Gdzie jest",
@@ -70,9 +70,9 @@ export const UI_TEXT = {
     soundOn: "Dźwięk włączony",
     soundOff: "Dźwięk wyłączony",
     is: "To jest",
-    credits: "Na podstawie postaci Pucio stworzonej przez Martę Galewską-Kustrę, wydawnictwo Nasza Księgarnia.",
+    credits: "Na podstawie postaci Pucio stworzonej przez Dr. Martę Galewską-Kustrę, wydawnictwo Nasza Księgarnia.",
     createdBy: "Gra stworzona przez Lorenzo Alali",
-    copyrightNotice: "Prawa autorskie do postaci Pucio należą do Marty Galewskiej-Kustry. Ta gra powstała wyłącznie dla zabawy (fan game) i nie ma celów komercyjnych.",
+    copyrightNotice: "Prawa autorskie do postaci Pucio należą do Dr. Marty Galewskiej-Kustry. Ta gra powstała wyłącznie dla zabawy (fan game) i nie ma celów komercyjnych.",
     close: "Zamknij"
   }
 };
