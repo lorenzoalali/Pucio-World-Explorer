@@ -1,8 +1,8 @@
-
-  # 🎮 Pucio World Explorer
+# 🎮 Pucio World Explorer
   
   **An interactive, educational sound game for children featuring the beloved character Pucio.**
-  
+
+![Pucio World Explorer Gameplay](animated-screenshot.gif)
 
 ---
 
