@@ -69,8 +69,11 @@ To run this project locally on your machine, follow these steps.
 2.  **Open your browser**
     Navigate to localhost link port shown in your terminal.
 
-## 📄 Credits
+## 📄 Credits & License
 
-*   **Intellectual Property:** Based on the "Pucio" book series by Dr. Marta Galewska-Kustra. This game was created for entertainment purposes only (a fan game) with no commercial ambitions.
+This project is a non-official **fan game** created for educational purposes.
+
+*   **Intellectual Property:** Based on the "Pucio" book series by **Dr. Marta Galewska-Kustra**. The characters and concepts are the property of the author and **Nasza Księgarnia** publisher.
+*   **License:** The source code is under the **MIT License**. This project is **not** affiliated with, endorsed, sponsored, or approved by the rights holders.
 *   **Book Publisher:** [Nasza Księgarnia - Pucio](https://nk.com.pl/oferta-specjalna/pucio.html)
 *   **Game Creator:** Created by Lorenzo Alali, testing [Google AI Studio](https://github.com/google-gemini/aistudio-repository-template) and its GitHub connection.
