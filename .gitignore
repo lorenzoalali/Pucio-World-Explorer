@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Audio helpers
+audio/README.md
+audio_manifest.md
+
+# Temporary files
+package-lock.json
